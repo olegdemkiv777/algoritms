@@ -22,6 +22,15 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="algoritm.py" />
+    <Compile Include="binary_search.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="recursion.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="selection_sort.py">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
